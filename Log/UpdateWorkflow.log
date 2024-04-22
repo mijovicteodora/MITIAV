@@ -1,0 +1,121 @@
+2024-02-10 - 21:14:54
+Workflow 'Update workflow.' started.
+              Using DaVinci Configurator 5.11.16 SP1 (x86_64).
+ 21:14:54 - Action 'SLP conformance check' started.
+ 21:14:54 - Action 'SLP conformance check' started.
+ 21:14:54 - Action 'SLP conformance check' successfully finished.
+ 21:14:54 - Action 'SLP conformance check' successfully finished.
+ 21:14:54 - Action 'Creating back up' started.
+ 21:14:54 - Action 'Creating back up' started.
+              Create backup folder: 'C:\nit-au-03\projekat\AUTOSAR_Exercises\templateAFS\Backups\backup_dvpa_2024-02-10_21-14-54'.
+              Copied project file from: 'C:\nit-au-03\projekat\AUTOSAR_Exercises\templateAFS\MyECU.dpa' to 'C:\nit-au-03\projekat\AUTOSAR_Exercises\templateAFS\Backups\backup_dvpa_2024-02-10_21-14-54\MyECU.dpa'.
+              Copied ECUC folder from: 'C:\nit-au-03\projekat\AUTOSAR_Exercises\templateAFS\Config\ECUC' to 'C:\nit-au-03\projekat\AUTOSAR_Exercises\templateAFS\Backups\backup_dvpa_2024-02-10_21-14-54\Config\ECUC'.
+              Copied 'System' folder from: 'C:\nit-au-03\projekat\AUTOSAR_Exercises\templateAFS\Config\System' to 'C:\nit-au-03\projekat\AUTOSAR_Exercises\templateAFS\Backups\backup_dvpa_2024-02-10_21-14-54\Config\System'.
+              Copied DaVinci Developer Workspace folder from: 'C:\nit-au-03\projekat\AUTOSAR_Exercises\templateAFS\.\Config\Developer' to 'C:\nit-au-03\projekat\AUTOSAR_Exercises\templateAFS\Backups\backup_dvpa_2024-02-10_21-14-54\Config\Developer'.
+              Copied BSW internal behavior folder from: 'C:\nit-au-03\projekat\AUTOSAR_Exercises\templateAFS\Config\InternalBehavior' to 'C:\nit-au-03\projekat\AUTOSAR_Exercises\templateAFS\Backups\backup_dvpa_2024-02-10_21-14-54\Config\InternalBehavior'.
+              Copied SWC files folder from: 'C:\nit-au-03\projekat\AUTOSAR_Exercises\templateAFS\Config\ServiceComponents' to 'C:\nit-au-03\projekat\AUTOSAR_Exercises\templateAFS\Backups\backup_dvpa_2024-02-10_21-14-54\Config\ServiceComponents'.
+ 21:14:54 - Action 'Creating back up' successfully finished.
+ 21:14:54 - Action 'Creating back up' successfully finished.
+ 21:14:54 - Action 'Processing the input files' started.
+ 21:14:54 - Action 'Processing the input files' started.
+ 21:14:54 - Action 'Processing' started.
+              Start converting legacy file(s): C:\nit-au-03\projekat\AUTOSAR_Exercises\templateAFS\Config\_InputDataBases\CAN.dbc.
+ 21:14:54 - Action 'Converting legacy file(s) to AUTOSAR files' started.
+ 21:14:54 - Action 'Converting legacy file(s) to AUTOSAR files' started.
+              Convert legacy file(s) to System Description.
+              Used executable: "C:\nit-au-03\projekat\AUTOSAR_Exercises\Generators\LegacyDb2SystemDescrConverter\LegacyDb2SystemDescrConverter.exe".
+              Arguments: ["C:\nit-au-03\projekat\AUTOSAR_Exercises\templateAFS\Config\_InputDataBases\CAN.dbc", -o, "C:\Users\nituser\AppData\Local\Temp\711471748970700\ConvertedLegacy.arxml", -r, 42, -e].
+              
+              Vector Legacy Database Converter Version 1.7.30.0.
+              Copyright c Vector Informatik GmbH 2016.
+              License is invalid! Element <SLP> cannot be found.
+              
+              [info] Command line: "C:\nit-au-03\projekat\AUTOSAR_Exercises\Generators\LegacyDb2SystemDescrConverter\LegacyDb2SystemDescrConverter.exe" "C:\nit-au-03\projekat\AUTOSAR_Exercises\templateAFS\Config\_InputDataBases\CAN.dbc" -o "C:\Users\nituser\AppData\Local\Temp\711471748970700\ConvertedLegacy.arxml" -r 42 -e.
+              [info] Options file: -v 15.
+              [info] Converting DBC file C:\nit-au-03\projekat\AUTOSAR_Exercises\templateAFS\Config\_InputDataBases\CAN.dbc.
+              [error] DBC attribute definition GenMsgSendType has unknown default value cyclicX.
+              [error] DBC attribute definition GenSigSendType has unknown default value cyclicX.
+              [info] Writing System Description...
+              [info] Writing 3 ECU Extracts...
+              
+              C:\Users\nituser\AppData\Local\Temp\711471748970700\ConvertedLegacy.arxml.
+              C:\Users\nituser\AppData\Local\Temp\711471748970700\ConvertedLegacy_MyECU.arxml.
+              C:\Users\nituser\AppData\Local\Temp\711471748970700\ConvertedLegacy_RearECU.arxml.
+              C:\Users\nituser\AppData\Local\Temp\711471748970700\ConvertedLegacy_Tester.arxml.
+              Elapsed time: 0,483 seconds.
+              2 Errors.
+              0 Warnings.
+ 21:14:55 - Action 'Converting legacy file(s) to AUTOSAR files' successfully finished.
+ 21:14:55 - Action 'Converting legacy file(s) to AUTOSAR files' successfully finished.
+              Legacy converter result file: C:\Users\nituser\AppData\Local\Temp\711471748970700\ConvertedLegacy_MyECU.arxml.
+ 21:14:55 - Action 'Processing' successfully finished.
+ 21:14:55 - Action 'Evaluate system extract paths' started.
+ 21:14:55 - Action 'Evaluate system extract paths' started.
+ 21:14:55 - Action 'Evaluate system extract paths' successfully finished.
+ 21:14:55 - Action 'Evaluate system extract paths' successfully finished.
+ 21:14:55 - Action 'Processing the input files' successfully finished.
+ 21:14:55 - Action 'Close Project' started.
+ 21:14:56 - Action 'Close Project' successfully finished.
+ 21:14:57 - Action 'Prepare project for EcucUpdate' started.
+ 21:14:57 - Action 'Create copy of the Project' started.
+              Copy project 'C:\nit-au-03\projekat\AUTOSAR_Exercises\templateAFS' to 'C:\Users\nituser\AppData\Local\Temp\SC91'...
+              Adjusting DPA file of copied project...
+ 21:14:57 - Action 'Create copy of the Project' successfully finished.
+ 21:14:57 - Action 'Prepare project for EcucUpdate' successfully finished.
+ 21:14:57 - Action 'Prepare DaVinci Developer update data' started.
+ 21:14:57 - Action 'Prepare DaVinci Developer update data' started.
+ 21:14:57 - Action 'Prepare DaVinci Developer update data' successfully finished.
+ 21:14:57 - Action 'Prepare DaVinci Developer update data' successfully finished.
+ 21:14:57 - Action 'Prepare data for update' started.
+ 21:14:57 - Action 'Prepare data for update' successfully finished.
+ 21:14:57 - Action 'Prepare System Extract' started.
+ 21:14:58 - Action 'Preprocessing System Extract' started.
+ 21:14:58 - Action 'Preprocessing System Extract' successfully finished.
+ 21:14:58 - Action 'Create OEM Communication Extract' started.
+ 21:14:58 - Action 'Create OEM Communication Extract' successfully finished.
+ 21:14:58 - Action 'Prepare System Extract' successfully finished.
+ 21:14:58 - Action 'Updating the project' started.
+ 21:14:58 - Action 'Updating the project' started.
+ 21:15:01 - Action 'Generate ECU configuration' started.
+ 21:15:03 - Action 'Diagnostics Description Import for CDD' started.
+ 21:15:04 - Action 'Diagnostics Description Import for CDD' successfully finished.
+ 21:15:05 - Action 'Validation and Auto-Solving-Actions' started.
+ 21:15:09 - Action 'Validation and Auto-Solving-Actions' successfully finished.
+ 21:15:09 - Action 'Generate ECU configuration' successfully finished.
+ 21:15:09 - Action 'Update ECU configuration' started.
+ 21:15:15 - Action 'Update ECU configuration' successfully finished.
+ 21:15:15 - Action 'Updating the project' successfully finished.
+ 21:15:15 - Action 'Updating the project' successfully finished.
+ 21:15:15 - Action 'Adapt project file' started.
+ 21:15:15 - Action 'Adapt project file' successfully finished.
+ 21:15:15 - Action 'Execute update-specific solving actions' started.
+              [Warning] The following paths, configurated in the given .dpa file do not exist:
+                        ApplicationComponents: C:\Users\nituser\AppData\Local\Temp\SC91\Config\ApplicationComponents,
+                        DefinitionRestriction: C:\Users\nituser\AppData\Local\Temp\SC91\DefRestrict
+                        .
+ 21:15:19 - Action 'Execute update-specific solving actions' successfully finished with warnings.
+                 [Warning] The following paths, configurated in the given .dpa file do not exist:
+                 ApplicationComponents: C:\Users\nituser\AppData\Local\Temp\SC91\Config\ApplicationComponents,
+                 DefinitionRestriction: C:\Users\nituser\AppData\Local\Temp\SC91\DefRestrict
+                 .
+ 21:15:19 - Action 'Update DaVinci Developer Workspace' started.
+ 21:15:27 - Action 'Update DaVinci Developer Workspace' successfully finished.
+ 21:15:27 - Action 'Update RTE configuration' started.
+              [Warning] The following paths, configurated in the given .dpa file do not exist:
+                        ApplicationComponents: C:\Users\nituser\AppData\Local\Temp\SC91\Config\ApplicationComponents,
+                        DefinitionRestriction: C:\Users\nituser\AppData\Local\Temp\SC91\DefRestrict
+                        .
+ 21:15:32 - Action 'Update RTE configuration' successfully finished.
+ 21:15:32 - Action 'Align differences after successful update' started.
+ 21:15:32 - Action 'Align differences after successful update' started.
+ 21:15:32 - Action 'Align differences after successful update' successfully finished.
+ 21:15:32 - Action 'Align differences after successful update' successfully finished.
+ 21:15:32 - Action 'Clean up update data' started.
+ 21:15:32 - Action 'Clean up update data' successfully finished.
+ 21:15:32 - Action 'Open Project' started.
+ 21:15:41 - Action 'Open Project' successfully finished.
+21:15:41 - Workflow 'Update workflow.' successfully finished with warnings.
+                [Warning] The following paths, configurated in the given .dpa file do not exist:
+                ApplicationComponents: C:\Users\nituser\AppData\Local\Temp\SC91\Config\ApplicationComponents,
+                DefinitionRestriction: C:\Users\nituser\AppData\Local\Temp\SC91\DefRestrict
+                .

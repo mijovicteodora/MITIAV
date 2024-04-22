@@ -1,0 +1,19 @@
+Vector Legacy Database Converter Version 1.7.30.0
+Copyright c Vector Informatik GmbH 2016
+License is invalid! Element <SLP> cannot be found.
+
+[info] Command line: "C:\nit-au-03\projekat\AUTOSAR_Exercises\Generators\LegacyDb2SystemDescrConverter\LegacyDb2SystemDescrConverter.exe" "C:\nit-au-03\projekat\AUTOSAR_Exercises\templateAFS\Config\_InputDataBases\CAN.dbc" -o "C:\Users\nituser\AppData\Local\Temp\438651710736600\ConvertedLegacy.arxml" -r 42 -e
+[info] Options file: -v 15
+[info] Converting DBC file C:\nit-au-03\projekat\AUTOSAR_Exercises\templateAFS\Config\_InputDataBases\CAN.dbc
+[error] DBC attribute definition GenMsgSendType has unknown default value cyclicX
+[error] DBC attribute definition GenSigSendType has unknown default value cyclicX
+[info] Writing System Description...
+[info] Writing 3 ECU Extracts...
+
+C:\Users\nituser\AppData\Local\Temp\438651710736600\ConvertedLegacy.arxml
+C:\Users\nituser\AppData\Local\Temp\438651710736600\ConvertedLegacy_MyECU.arxml
+C:\Users\nituser\AppData\Local\Temp\438651710736600\ConvertedLegacy_RearECU.arxml
+C:\Users\nituser\AppData\Local\Temp\438651710736600\ConvertedLegacy_Tester.arxml
+Elapsed time: 0,452 seconds
+2 Errors
+0 Warnings
